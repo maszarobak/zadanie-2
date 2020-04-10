@@ -1,0 +1,64 @@
+#strona{
+width:100%;
+background-color: red;
+border: black solid 5px;
+
+}
+#naglowek{
+  border: black solid 5px;
+
+}
+#Menu{
+  border-bottom: black solid 1px;
+  padding-left: 10px;
+}
+#menu{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color:yellow;
+  background-color: rgb(51, 0, 26);
+  border-bottom: black solid 1px;
+}
+.option{
+  float:left;
+  min-width: 50px;
+  height: 25px;
+  font-size: 18px;
+  padding:10px;
+  border-right: 2px dotted #444444;
+  opacity: 0.8;
+}
+.option:hover{
+  background-color: #000000;
+  cursor: pointer;
+}
+
+}
+#zawartosc {
+  display: flex;
+  height: 1000px;
+  border: black solid 1px;
+}
+#lewo {
+  float: left;
+  padding-left: 10px;
+  width: 200px;
+  color: yellow;
+  border-right: black solid 1px;
+}
+#srodek{
+  padding-left: 10px;
+  width:100%;
+  color: yellow;
+  background-color: rgb(51, 0, 51);
+}
+#prawo{
+  float: right;
+  border-left: black solid 1px;
+  padding-right: 10px;
+  width: 200px;
+  color: yellow;
+  background-color: purple;
+  border-right: black solid 1px;
+}
